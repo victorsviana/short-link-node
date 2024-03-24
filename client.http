@@ -1,0 +1,21 @@
+POST http://localhost:3333/api/links
+Content-Type: application/json
+
+{
+    "code": "alura",
+    "url": "https://alura.com"
+}
+
+
+###
+
+GET http://localhost:3333/api/links
+
+
+###
+
+GET http://localhost:3333/alura
+
+###
+
+GET http://localhost:3333/api/metrics
